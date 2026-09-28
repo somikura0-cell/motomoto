@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>МОТОПОІНТ — Мототехніка</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+
+    <div class="top-line">
+        <div class="container top-content">
+            <div class="top-links">
+                <a href="#about">Про нас</a>
+                <a href="#delivery">Оплата і доставка</a>
+                <a href="#return">Обмін та повернення</a>
+                <a href="#contacts">Контакти</a>
+                <a href="#blog">Блог</a>
+            </div>
+
+            <div class="top-right">
+                <span>● Facebook</span>
+                <span>● Instagram</span>
+                <span>Укр</span>
+                <span>UAH ₴</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-header">
+        <div class="container header-main">
+
+            <a href="#home" class="logo">
+                <span class="logo-icon">⚙</span>
+                <span>
+                    <strong>МОТОYURA</strong>
+                    <small>МОТОТЕХНІКА</small>
+                </span>
+            </a>
+
+            <div class="phones">
+                <div>☎ 067 788-64-94</div>
+                <div>☎ 066 086-18-45</div>
+                <a href="#contacts">Передзвонити вам?</a>
+            </div>
+
+            <div class="working">
+                <span>◷ Графік роботи:</span>
+                <b>Будні: 09:00–19:00</b>
+                <b>Сб.: 09:00–18:00</b>
+                <b>Нд.: 09:00–18:00</b>
+            </div>
+
+            <div class="cart" id="cartButton">
+                <span class="cart-icon">🛒</span>
+                <span>Кошик</span>
+                <b id="cartCount">0</b>
+            </div>
+
+        </div>
+
+        <div class="container search-row">
+            <input type="text" id="search" placeholder="Пошук товарів">
+            <button id="searchBtn">⌕</button>
+        </div>
+    </div>
+
+    <nav class="category-nav">
+        <div class="container category-list">
+
+            <a href="#catalog">
+                <span>🏍️</span>
+                <b>Мототрактора</b>
+            </a>
+
+            <a href="#catalog">
+                <span>🚜</span>
+                <b>Мінітрактори</b>
+            </a>
+
+            <a href="#catalog">
+                <span>🚜</span>
+                <b>Трактори</b>
+            </a>
+
+            <a href="#catalog">
+                <span>⚙️</span>
+                <b>Навісне<br>обладнання</b>
+            </a>
+
+            <a href="#catalog">
+                <span>🛵</span>
+                <b>Мотоблоки</b>
+            </a>
+
+            <a href="#catalog">
+                <span>🏎️</span>
+                <b>Квадроцикли</b>
+            </a>
+
+            <a href="#catalog" class="active">
+                <span>🏍️</span>
+                <b>Мото Техніка</b>
+            </a>
+
+            <a href="#catalog">
+                <span>🚙</span>
+                <b>Мотовсюдиходи,<br>buggi, UTV</b>
+            </a>
+
+            <a href="#catalog">
+                <span>🚜</span>
+                <b>Нова<br>спецтехніка</b>
+            </a>
+
+            <a href="#catalog">
+                <span>⚡</span>
+                <b>Генератори</b>
+            </a>
+
+        </div>
+    </nav>
+
+</header>
+
+<main id="home">
+
+    <section class="hero">
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-content">
+            <div class="hero-text">
+                <span class="hero-label">МОТОТЕХНІКА 2026</span>
+
+                <h1>
+                    Техніка для роботи,<br>
+                    відпочинку та життя
+                </h1>
+
+                <p>
+                    Мотоцикли, квадроцикли, мотоблоки,
+                    трактори та інша техніка.
+                </p>
+
+                <a href="#catalog" class="hero-button">
+                    ПЕРЕГЛЯНУТИ КАТАЛОГ
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="advantages">
+        <div class="container advantages-grid">
+
+            <div class="advantage">
+                <span>🚚</span>
+                <div>
+                    <b>Доставка по Україні</b>
+                    <p>Відправлення перевізниками</p>
+                </div>
+            </div>
+
+            <div class="advantage">
+                <span>🛠️</span>
+                <div>
+                    <b>Гарантія на техніку</b>
+                    <p>Офіційна гарантія</p>
+                </div>
+            </div>
+
+            <div class="advantage">
+                <span>💳</span>
+                <div>
+                    <b>Зручна оплата</b>
+                    <p>Готівка або безготівковий розрахунок</p>
+                </div>
+            </div>
+
+            <div class="advantage">
+                <span>☎</span>
+                <div>
+                    <b>Консультація</b>
+                    <p>Допоможемо обрати техніку</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="catalog-section" id="catalog">
+
+        <div class="container">
+
+            <div class="breadcrumbs">
+                Головна <span>›</span> Каталог <span>›</span> Мототехніка
+            </div>
+
+            <div class="catalog-title">
+
+                <div>
+                    <span class="section-label">КАТАЛОГ</span>
+
+                    <h2>
+                        Мототехніка: вибір<br>
+                        транспорту для вас
+                    </h2>
+                </div>
+
+                <div class="catalog-count">
+                    <b id="productsCount">0</b>
+                    <span>товарів знайдено</span>
+                </div>
+
+            </div>
+
+            <div class="catalog-layout">
+
+                <aside class="filters">
+
+                    <div class="filter-header">
+                        <h3>Фільтри</h3>
+                        <button id="resetFilters">Скинути</button>
+                    </div>
+
+                    <div class="filter-block">
+
+                        <h4>Тип техніки</h4>
+
+                        <label>
+                            <input type="checkbox" class="type-filter" value="Мотоцикл">
+                            Мотоцикли
+                        </label>
+
+                        <label>
+                            <input type="checkbox" class="type-filter" value="Скутер">
+                            Скутери
+                        </label>
+
+                        <label>
+                            <input type="checkbox" class="type-filter" value="Квадроцикл">
+                            Квадроцикли
+                        </label>
+
+                        <label>
+                            <input type="checkbox" class="type-filter" value="UTV">
+                            UTV / баггі
+                        </label>
+
+                        <label>
+                            <input type="checkbox" class="type-filter" value="Мотоблок">
+                            Мотоблоки
+                        </label>
+
+                        <label>
+                            <input type="checkbox" class="type-filter" value="Трактор">
+                            Трактори
+                        </label>
+
+                        <label>
+                            <input type="checkbox" class="type-filter" value="Генератор">
+                            Генератори
+                        </label>
+
+                    </div>
+
+                    <div class="filter-block">
+
+                        <h4>Бренд</h4>
+
+                        <label>
+                            <input type="checkbox" class="brand-filter" value="SPARK">
+                            SPARK
+                        </label>
+
+                        <label>
+                            <input type="checkbox" class="brand-filter" value="FORTE">
+                            FORTE
+                        </label>
+
+                        <label>
+                            <input type="checkbox" class="brand-filter" value="DOZER">
+                            DOZER
+                        </label>
+
+                        <label>
+                            <input type="checkbox" class="brand-filter" value="BSE">
+                            BSE
+                        </label>
+
+                        <label>
+                            <input type="checkbox" class="brand-filter" value="LONCIN">
+                            LONCIN
+                        </label>
+
+                    </div>
+
+                    <div class="filter-block">
+
+                        <h4>Ціна, грн</h4>
+
+                        <div class="price-inputs">
+                            <input type="number" id="minPrice" value="0">
+                            <span>—</span>
+                            <input type="number" id="maxPrice" value="500000">
+                        </div>
+
+                        <input
+                            type="range"
+                            id="priceRange"
+                            min="0"
+                            max="500000"
+                            value="500000"
+                        >
+
+                    </div>
+
+                    <div class="filter-block">
+
+                        <h4>Об'єм двигуна</h4>
+
+                        <select id="engineFilter">
+                            <option value="all">Усі варіанти</option>
+                            <option value="125">до 125 см³</option>
+                            <option value="250">126–250 см³</option>
+                            <option value="500">251–500 см³</option>
+                            <option value="501">понад 500 см³</option>
+                        </select>
+
+                    </div>
+
+                    <div class="filter-block">
+
+                        <h4>Наявність</h4>
+
+                        <label>
+                            <input type="checkbox" id="availableFilter">
+                            В наявності
+                        </label>
+
+                        <label>
+                            <input type="checkbox" id="newFilter">
+                            Новинки
+                        </label>
+
+                    </div>
+
+                </aside>
+
+                <div class="products-area">
+
+                    <div class="catalog-toolbar">
+
+                        <div class="toolbar-search">
+                            <input
+                                type="text"
+                                id="catalogSearch"
+                                placeholder="Пошук у каталозі..."
+                            >
+                        </div>
+
+                        <div class="sorting">
+
+                            <span>Сортування:</span>
+
+                            <select id="sortSelect">
+                                <option value="popular">за популярністю</option>
+                                <option value="cheap">спочатку дешевше</option>
+                                <option value="expensive">спочатку дорожче</option>
+                                <option value="name">за назвою</option>
+                            </select>
+
+                            <button class="view-button active" id="gridView">
+                                ▦
+                            </button>
+
+                            <button class="view-button" id="listView">
+                                ☰
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="products-grid" id="productsGrid"></div>
+
+                    <div class="empty-state" id="emptyState">
+
+                        <div>🔎</div>
+
+                        <h3>Нічого не знайдено</h3>
+
+                        <p>
+                            Спробуйте змінити параметри пошуку або фільтрів.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="special-section">
+
+        <div class="container">
+
+            <div class="special-box">
+
+                <div>
+                    <span>ПІДБІР ТЕХНІКИ</span>
+
+                    <h2>
+                        Не знаєте, що обрати?
+                    </h2>
+
+                    <p>
+                        Заповніть коротку форму,
+                        і ми підберемо відповідний варіант.
+                    </p>
+                </div>
+
+                <a href="#contacts" class="orange-button">
+                    ПІДІБРАТИ ТЕХНІКУ
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="info-section" id="about">
+
+        <div class="container info-grid">
+
+            <div>
+
+                <span class="section-label">
+                    ПРО НАС
+                </span>
+
+                <h2>
+                    МОТОПОІНТ
+                </h2>
+
+                <p>
+                    Каталог сучасної мототехніки для роботи,
+                    господарства, відпочинку та активного життя.
+                </p>
+
+                <p>
+                    Тут можна переглянути моделі,
+                    характеристики та підібрати техніку
+                    відповідно до своїх потреб.
+                </p>
+
+            </div>
+
+            <div class="info-card">
+                <div>🏍️</div>
+
+                <h3>
+                    Широкий вибір
+                </h3>
+
+                <p>
+                    Мотоцикли, квадроцикли,
+                    скутери та інша техніка.
+                </p>
+            </div>
+
+            <div class="info-card">
+                <div>⚙️</div>
+
+                <h3>
+                    Характеристики
+                </h3>
+
+                <p>
+                    Повні характеристики
+                    кожної моделі доступні
+                    після натискання на товар.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="contact-section" id="contacts">
+
+        <div class="container contact-grid">
+
+            <div class="contact-text">
+
+                <span class="section-label">
+                    КОНТАКТИ
+                </span>
+
+                <h2>
+                    Потрібна консультація?
+                </h2>
+
+                <p>
+                    Залиште свої дані та питання.
+                    Форма працює в демонстраційному режимі.
+                </p>
+
+                <div class="contact-item">
+                    <span>☎</span>
+
+                    <div>
+                        <b>067 788-64-94</b>
+                        <p>Пн–Пт: 09:00–19:00</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <span>☎</span>
+
+                    <div>
+                        <b>066 086-18-45</b>
+                        <p>Сб–Нд: 09:00–18:00</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <form class="contact-form" id="contactForm">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Ваше ім'я"
+                >
+
+                <input
+                    type="tel"
+                    id="phone"
+                    placeholder="Номер телефону"
+                >
+
+                <select id="requestType">
+                    <option value="">
+                        Що вас цікавить?
+                    </option>
+
+                    <option>
+                        Мотоцикли
+                    </option>
+
+                    <option>
+                        Квадроцикли
+                    </option>
+
+                    <option>
+                        Скутери
+                    </option>
+
+                    <option>
+                        Мотоблоки
+                    </option>
+
+                    <option>
+                        Трактори
+                    </option>
+
+                    <option>
+                        Інша техніка
+                    </option>
+                </select>
+
+                <textarea
+                    id="message"
+                    placeholder="Ваше питання"
+                ></textarea>
+
+                <button type="submit">
+                    НАДІСЛАТИ ЗАПИТ
+                </button>
+
+                <div
+                    class="form-message"
+                    id="formMessage"
+                ></div>
+
+            </form>
+
+        </div>
+
+    </section>
+
+</main>
+
+<div class="modal hidden" id="productModal">
+
+    <div class="modal-window">
+
+        <button
+            class="modal-close"
+            id="modalClose"
+        >
+            ×
+        </button>
+
+        <div id="modalContent"></div>
+
+    </div>
+
+</div>
+<div class="modal hidden" id="cartModal">
+  <div class="modal-window">
+    <button class="modal-close" id="cartClose">×</button>
+    <h2>Кошик</h2>
+    <div id="cartContent"></div>
+  </div>
+</div>
+
+<div class="modal hidden" id="checkoutModal">
+  <div class="modal-window checkout-window">
+    <button class="modal-close" id="checkoutClose">×</button>
+
+    <h2>Оформлення замовлення</h2>
+
+    <form id="checkoutForm">
+      <input type="text" id="orderName" placeholder="Ваше ім'я" required>
+      <input type="tel" id="orderPhone" placeholder="Телефон" required>
+
+      <button type="submit" class="checkout-button">
+        ПІДТВЕРДИТИ ЗАМОВЛЕННЯ
+      </button>
+    </form>
+  </div>
+</div>
+ <form id="checkoutForm">
+      <input
+        type="text"
+        id="orderName"
+        placeholder="Ваше ім'я"
+        required
+      >
+
+      <input
+        type="tel"
+        id="orderPhone"
+        placeholder="Телефон"
+        required
+      >
+
+      <button type="submit" class="checkout-button">
+        ПІДТВЕРДИТИ ЗАМОВЛЕННЯ
+      </button>
+    </form>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<footer id="delivery">
+
+    <div class="container footer-grid">
+
+        <div>
+
+            <div class="footer-logo">
+                МОТОПОІНТ
+            </div>
+
+            <p>
+                Мототехніка для роботи,
+                відпочинку та активного життя.
+            </p>
+
+        </div>
+
+        <div>
+
+            <h3>
+                Інформація
+            </h3>
+
+            <a href="#about">
+                Про нас
+            </a>
+
+            <a href="#delivery">
+                Оплата і доставка
+            </a>
+
+            <a href="#return">
+                Обмін та повернення
+            </a>
+
+            <a href="#blog">
+                Блог
+            </a>
+
+        </div>
+
+        <div>
+
+            <h3>
+                Каталог
+            </h3>
+
+            <a href="#catalog">
+                Мотоцикли
+            </a>
+
+            <a href="#catalog">
+                Квадроцикли
+            </a>
+
+            <a href="#catalog">
+                Скутери
+            </a>
+
+            <a href="#catalog">
+                Мотоблоки
+            </a>
+
+        </div>
+
+        <div>
+
+            <h3>
+                Контакти
+            </h3>
+
+            <p>
+                067 788-64-94
+            </p>
+
+            <p>
+                066 086-18-45
+            </p>
+
+            <p>
+                Пн–Пт: 09:00–19:00
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        © 2026 МОТОПОІНТ. Навчальний проєкт.
+    </div>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
